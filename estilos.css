@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1, 6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin-top: 26px;
+}
+
+section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2980bd;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+
+th,
+td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    vertical-align: top;
+}
+
+th {
+    background-color: #2980bd;
+    color: #fff;
+    text-align: left;
+}
+
+td img {
+    display: block;
+    margin: 10px 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(50% - 10px);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+
+}
+
+.card-toyota {
+    margin-top: 17px;
+}
+
+.card-amazon {
+    margin-top: 80px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 120px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border-top: 1px solid #ccc;
+    color: #2980bd;
+}
